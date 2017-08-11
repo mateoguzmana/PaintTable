@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Paint Table</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="row">
+	<div class="col-sm-3"></div>
+	<div class="col-sm-6">
+	    <h2>Paint Table</h2>
+  		<p>This table is paint dinamicly</p>     
+	    <table border=1>
+		    <tbody>
+		      <tr>
+		        <td></td>
+		        <td></td>
+		        <td></td>
+		      </tr>
+		      <tr>
+		        <td></td>
+		        <td></td>
+		        <td></td>
+		      </tr>
+		      <tr>
+		        <td></td>
+		        <td></td>
+		        <td></td>
+		      </tr>
+		    </tbody>
+	    </table>
+	    <br>
+	    <div class="row">
+	    	<div class="col-sm-8">
+	    		<input class="form-control" id="numbersToPaint" placeholder="Positions tu paint here">
+	    	</div>
+	    	<div class="col-sm-4">
+	    		<button class="btn btn-info" id="btnPaint">Paint!</button>
+	    		<button class="btn btn-danger" id="btnReset">Reset</button>
+	    	</div>
+	    </div> 
+	</div>
+	<div class="col-sm-3"></div>       
+</div>
+
+</body>
+</html>
